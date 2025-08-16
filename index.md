@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # 👨‍💻 Bharath Booshan Lakshmi Narayanan
 **Senior Software Engineer | Product Engineer**
 
