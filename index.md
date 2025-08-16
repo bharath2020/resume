@@ -15,84 +15,100 @@
 - Dedicated to performance, reliability, and building complex, high-quality applications used by millions of users worldwide.
 - At my personal time, I build applications that solve problems I encounter. I recently launched [Captulate](https://apps.apple.com/in/app/captulate/id6749521528?mt=12) that does quick math right from your screen without any copy paste. 
 
+
 ## 💼 Professional Experience
 
 ### Senior Software Engineer - Confluence | Atlassian
 **Jan 2020 - Present**
 
-### 🏆 Executive Summary
-**Transformed Confluence's mobile experience** by leading critical infrastructure modernization, **driving 20% increase in search engagement**, and **architecting enterprise-grade analytics platform** serving **6+ Atlassian apps** and **millions of users worldwide**.
+### 🌟 Key Highlights
+- Created intuitive developer tools that make it easy to build, track, and access Confluence behavioral and observability metrics, empowering teams to move faster with confidence.
+- Drove a notable surge (~20%) in weekly usage of Confluence’s search feature and streamlined quick access to spaces, directly boosting user productivity and satisfaction.
+- Revamped the feed experience, helping users stay effortlessly connected with their teams and the wider organization—strengthening collaboration and engagement.
+- Fostered a culture of data-driven development by championing observability tools, enabling the team to proactively surface and resolve issues before they impact users.
+- Engineered a resilient caching system to guarantee data consistency and smooth, reliable access across all screens and features—old and new.
+- Elevated reliability and maintainability by building type-safe libraries for network data access, eliminating repetitive data transformations and making observability seamless across the product.
+- Spearheaded the development of a robust Analytics and Authentication library, now the backbone for analytics in 6+ Atlassian apps and trusted by millions of users worldwide.
 
-### 🎯 Key Metrics & Impact
-- **20% increase in weekly active search users**
-- **40% improvement in top 3 result selections**
-- **Reduced analytics data loss from 40% to near zero**
-- **Serving 6+ Atlassian apps** and **millions of users worldwide**
-- **30+ APIs migrated to GraphQL in 6 months**
-- **15+ critical dependency upgrades** completed
-- **Built analytics platform trusted by millions of users worldwide**
 
-### 🔍 Search, Spaces & Feed Experience Transformation
-**Led comprehensive redesign** of Confluence's core user experience, **driving measurable business impact**:
-- **Collaborated closely with designers and product managers** to reimagine the search journey, leveraging **rapid prototyping** and **data-driven insights** to address user pain points
-- **Delivered 40% improvement in top 3 result selections** through intelligent pre-search suggestions and advanced filtering
-- **Increased weekly active search users by 20%** via **rapid A/B testing** and **continuous optimization** based on user behavior data
-- **Reduced time-to-find-content** by implementing smart recommendations and quick actions (copy, share, watch)
-- **Introduced Following Feed** for team updates and **Popular Feed** for organization-wide highlights, **enhancing content discoverability**
-- **Enabled real-time interactions** allowing users to react to feed items, reply to comments, and perform quick actions (share, watch, copy links) directly from the feed
-- **Built scalable UI architecture** using TCA, SwiftUI, and Combine, enabling rapid feature iteration
+#### 🌟 Project Highlights
 
-### 📊 Enterprise Analytics & Experimentation Platform
-**Architected mission-critical analytics infrastructure** that **powers data-driven decisions across Atlassian**:
-- **Redesigned Analytics SDK** for all Atlassian mobile products, **reducing data loss from 40% to near zero** and **ensuring reliable event persistence**
-- **Built comprehensive experimentation framework** supporting **multiple concurrent experiments**, **accelerating product iteration cycles**
-- **Developed in-app analytics debugger** that **empowers developers and product managers** to **instantly validate analytics events** and **visualize related charts**
-- **Created feature flag system** integrated with Statsig, **enabling robust A/B testing** and **controlled feature rollouts**
+> **Note:** Projects were initially native iOS and migrated to React Native as an engineering initiative, with some features and experiments developed in React Native.
 
-### 🤖 LLM-Powered Analytics Revolution
-**Pioneered AI-driven analytics** that **democratized data access across the organization**:
-- **Built natural language analytics interface** allowing non-technical stakeholders to query complex data in plain English
-- **Integrated multi-platform data sources** (Databricks, Splunk) for **unified analytics access**
-- **Accelerated bug investigation** by **enabling first-order investigation** of bugs, feedback tickets, and hot issues
-- **Empowered product teams** to **quickly assess experiment impact** through conversational analytics
+#### 🔍 **Search and Spaces Experience Redesign**
+- Lead developer for end-to-end search and Confluence spaces experience overhaul.
+- Collaborated with designers and product managers to reimagine the search journey, leveraging rapid prototyping and data-driven insights to address user pain points.
+- Implemented pre-search suggestions, post-search results, quick actions (e.g., copy), and advanced filters (author, space, time, content type) while maintaining a simple and intuitive interface.
+- Improved user recommendations, increasing top 3 result selections by 40% and driving a 20% increase in weekly active search users (WAU) through rapid A/B testing and continuous optimization.
+- Built reusable UI components (filter chips, advanced filter sheets) and architected robust modules using TCA, SwiftUI, and Combine.
 
-### 🚀 API Modernization & Performance Engineering
-**Led enterprise-scale infrastructure transformation** that **dramatically improved app performance**:
-- **Migrated 30+ REST APIs to GraphQL** in **6 months**, **enabling flexible, type-safe requests** and **reducing redundant network calls**
-- **Built normalized caching infrastructure** that **acts as single source of truth** and **keeps data in sync across features and screens**
-- **Architected pagination systems** powering core features like feed and search, **supporting node-level cache invalidation** and **data expiration**
-- **Implemented CoreData observation APIs** to **track updates** and **fetch only changed data**, **ensuring high performance** and **seamless offline experiences**
+#### 📰 **Feed Experience Redesign**
+- Lead developer for feed experience modernization.
+- Introduced Following Feed for team updates and Popular Feed for organization-wide highlights, enhancing content discoverability.
+- Enabled users to react to feed items, reply to comments, and perform quick actions (share, watch, copy links) directly from the feed, increasing engagement and collaboration.
 
-### 🔐 Enterprise Authentication Infrastructure
-**Built mission-critical authentication system** serving **millions of users across 6+ Atlassian products**:
-- **Architected multi-account authentication** enabling **seamless switching between Atlassian sites**
-- **Redesigned authentication flows** for **improved user experience and security**
-- **Implemented sophisticated deep link handling** for **complex multi-account scenarios**
-- **Built observability metrics** that **monitor login state health** and **trigger alerts for authentication anomalies**
+**🤖 LLM-Powered Analytics Agent:**
+- **Natural Language Analytics Interface:** Designed and implemented an LLM-powered agent that allows users to ask questions about analytics data in plain English (e.g., "How did user engagement change after the last release?"), making it easy for anyone—regardless of technical background—to access insights without learning SQL or analytics tools.
+- **Integrated Data Sources:** Integrated the LLM agent with Databricks and Splunk, allowing seamless access to analytics and operational data across platforms.
+- **Contextual Issue Investigation:** Enabled first-order investigation of bugs, feedback tickets, and hot issues by allowing the LLM agent to reconstruct user journeys and surface relevant analytics events.
+- **Accelerated Experiment Analysis:** Empowered teams to quickly assess the impact of A/B experiments and product changes by asking high-level questions and receiving actionable insights.
+- **Stakeholder Empowerment:** Lowered the barrier for non-technical stakeholders to retrieve product data and understand user behavior, fostering a more data-informed culture.
 
-### ⚡ Infrastructure & Developer Experience
-**Transformed development velocity** through **comprehensive tooling and automation**:
-- **Modernized dependency management** with **15+ version upgrades** including MobileKit, Apollo GraphQL, and TCA
-- **Optimized build configurations** and **resolved framework linking issues**, **improving Bamboo CI/CD pipelines**
-- **Transitioned to Swift Package Manager** for **improved modularity** and **build performance**
-- **Built shared widget infrastructure** that **supports new product initiatives** with **authentication and data management**
+#### 📊 **Analytics & Experimentation Framework**
+*Built comprehensive analytics infrastructure and debugging tools*
 
-### 📈 Performance & Reliability Engineering
-**Established enterprise-grade monitoring** that **ensures optimal user experience**:
-- **Implemented intelligent error categorization** and **reporting**, **reducing noise in monitoring systems**
-- **Built comprehensive performance tracking** for **app startup time, memory usage, user interaction performance, and cache hit rates**
-- **Monitored and optimized API response times** and **data transfer efficiency**, **ensuring seamless user experience**
-- **Created multi-level caching** with **site-scoped and user-scoped data management**, **supporting features like feed, search, and widgets**
+**🛠️ Analytics Infrastructure & Developer Tools:**
+- **Analytics SDK:** Core team member in the Analytics SDK redesign for all Atlassian mobile products, ensuring reliable event persistence and minimizing data loss.
+- **Feature Flag Framework:** Built a comprehensive feature flag system integrated with Statsig for robust A/B testing and controlled feature rollouts.
+- **Analytics Debugger:** Developed internal debugging tools with real-time event filtering and JSON visualization, streamlining troubleshooting and validation.
+- **Experience Tracking:** Implemented detailed experience tracking to monitor app performance and user journeys, enabling data-driven optimizations.
+- **Experiment Management:** Designed and built experimentation infrastructure supporting multiple concurrent experiments, allowing rapid iteration and learning.
+- **In-app Analytics Debugger:** Delivered an in-app analytics debugger that empowers developers and product managers to instantly validate analytics events and visualize related charts, reducing errors and accelerating feedback cycles.
+
+#### 🔐 **Multi-Account Authentication System**
+*Core authentication infrastructure powering all Atlassian mobile products (Confluence, Jira, Trello, etc.)*
+*Lead developer for complex multi-account authentication infrastructure*
+
+**Authentication Architecture:**
+- **Multi-Account Support:** Led development allowing users to switch between different Atlassian sites seamlessly.
+- **Authentication Flow Redesign:** Rebuilt authentication flows for improved user experience and security.
+- **Account Management:** Implemented account switching, logout flows, and session management.
+- **Deep Link Handling:** Built sophisticated deep link handling for multi-account scenarios.
+- **Force Logout & Recovery:** Implemented force logout handling with automatic account recovery.
+- **Observability:** Implemented observability metrics to monitor login state health and trigger alerts for authentication anomalies.
+
+#### 🛜 **GraphQL API Migration & Caching Infrastructure**
+- Lead developer for GraphQL API migration and caching systems.
+- Architected and led the migration from REST to GraphQL APIs, enabling flexible, type-safe requests and reducing redundant network calls.
+- Partnered with backend teams to deliver 10+ new mobile-optimized GraphQL APIs and migrated ~30 APIs in 6 months, with observability and performance monitoring.
+- Developed components for efficient paginated data retrieval, powering core features like feed and search.
+- Designed a normalized cache to store the graph of objects retrieved via GraphQL APIs, acting as a single source of truth and keeping data in sync across features and screens.
+- Supported node-level cache invalidation and data expiration, enabling targeted removal of stale content and efficient storage for paginated data.
+- Built on CoreData observation APIs to track updates and fetch only changed data, ensuring high performance and seamless offline experiences.
+
+#### ⚙️ **Infrastructure, Build Systems & Performance Optimization**
+*Comprehensive modernization of infrastructure, build systems, and performance monitoring across all projects*
+
+- **Dependency Management:** Led upgrades of critical dependencies including MobileKit (15+ version upgrades), Apollo GraphQL, and TCA, ensuring stability and compatibility across the codebase.
+- **Build Performance & CI/CD:** Optimized build configurations, resolved framework linking issues, and improved Bamboo CI/CD pipelines for faster, more reliable deployments. Implemented build failure notifications and quality monitoring to maintain high release standards.
+- **Release & Deployment Management:** Managed version bumps, release coordination, and deployment processes across multiple app versions, streamlining release cycles.
+- **Modular Architecture:** Transitioned to Swift Package Manager for improved modularity and build performance, enabling faster development and easier maintenance.
+- **Networking Layer Modernization:** Upgraded HTTP service architecture with enhanced error handling and authentication, supporting robust and secure data flows for all features.
+- **Cache Architecture:** Built sophisticated multi-level caching with site-scoped and user-scoped data management, supporting features like feed, search, and widgets.
+- **Widget Infrastructure:** Developed shared infrastructure for iOS widgets, including authentication and data management, to support new product initiatives.
+- **Performance Metrics & Monitoring:** Implemented intelligent error categorization and reporting, reducing noise in monitoring systems. Built tracking for app startup time, memory usage, user interaction performance, and cache hit rates. Monitored and optimized API response times and data transfer efficiency to ensure a seamless user experience.
+
+*Related points for build, infrastructure, and performance have been integrated into the above project sections where relevant (e.g., GraphQL API Migration, Analytics & Experimentation Framework, Feed Experience Redesign).*
 
 ### Senior Software Engineer - Personagraph
 *Founding Engineer and Lead Developer*
 
 **September 2012 - May 2016**
 
-- **Data Platform & AdTech SDK Development:** Led the development of a data platform and AdTech SDK for iOS and Android, installed on over **1.5 billion devices**, enabling brands and ad agencies to reach their mobile audiences at scale.
+- **Data Platform & AdTech SDK Development:** Led the development of a data platform and AdTech SDK for iOS and Android, installed on over 1.5 billion devices, enabling brands and ad agencies to reach their mobile audiences at scale.
 - **SDK Architecture:** Built SDK with a focus on a concise API interface, easy adoption, and crash-free performance.
 - **Quality Assurance:** Implemented best practices for continuous integration and testing, profiled the SDK for memory leaks, and ensured high-frequency updates without compromising quality.
-- **Team Leadership:** Managed a distributed team of **5-8 engineers** across Brazil and India, setting best practices for delivering quality code, consistently meeting project delivery deadlines, and embracing automation to keep quality in check.
+- **Team Leadership:** Managed a distributed team of 5-8 engineers across Brazil and India, setting best practices for delivering quality code, consistently meeting project delivery deadlines, and embracing automation to keep quality in check.
 
 ### Software Engineer - Integral
 **February 2012 - August 2012**
@@ -112,7 +128,7 @@ Led teams in architecting, developing, and delivering various successful applica
 - **Charitra (iPhone):** An event planning and coordination tool for SAP.
 - **Condor (iOS):** A mobile sales tool interfacing with SAP.
 - **Tweet Globe (iPhone):** A Twitter client displaying tweets on a 3D globe.
-- **NightStand HD:** A popular alarm clock application with over **10 million downloads**, featuring gorgeous clock faces and animations.
+- **NightStand HD:** A popular alarm clock application with over 10 million downloads, featuring gorgeous clock faces and animations.
 
 **Technical Achievements:**
 - Created reusable iOS libraries including network modules, database modules, slideshow controllers, multi-column table views for iPad, object-pool libraries, image cache modules, and data sync modules using Bonjour and Bluetooth.
@@ -122,7 +138,7 @@ Led teams in architecting, developing, and delivering various successful applica
 
 - **Quick Smart Movie Creator:** Developed a rapid movie creation tool enabling search for matching clips across all system movie files.
 - **Camcorder Integration:** Implemented camcorder interfacing with Macintosh, extracting video clips and splitting them at points of noticeable frame changes.
-- **Search Optimization:** Replaced Spotlight search with an optimized SQLite-based search in Frameline v2.2, **reducing search time by 50%**.
+- **Search Optimization:** Replaced Spotlight search with an optimized SQLite-based search in Frameline v2.2, reducing search time by 50%.
 - **Game Development:**
     - **Aqua Jigsaw:** Created a dynamic jigsaw puzzle game for iOS utilizing an algorithm to generate uniquely shaped pieces with Bezier curves, enhancing the traditional puzzle experience.
     - **Zhiing:** Developed a location-based messaging app allowing users to send messages and obtain routes between sender and receiver by encapsulating GPS coordinates in replies.
@@ -142,14 +158,3 @@ Led teams in architecting, developing, and delivering various successful applica
 - **Cross-Platform:** iOS, macOS, Android development experience, React Native
 - **Data & Analytics:** Analytics frameworks, A/B testing, feature flags, data-driven development
 - **Additional Technologies:** GraphQL API development, Android reusable libraries
-
-## 🎯 Key Achievements Summary
-
-- **19 years** of mobile development experience across diverse domains
-- **Led transformation** of Confluence mobile experience with **20% increase in search engagement**
-- **Architected analytics platform** serving **6+ Atlassian apps** and **millions of users worldwide**
-- **Reduced analytics data loss from 40% to near zero**
-- **Built AdTech SDK** installed on **1.5 billion devices**
-- **Delivered apps** with **10+ million downloads**
-- **Managed distributed teams** of **5-8 engineers** across multiple countries
-- **Modernized infrastructure** with **30+ API migrations** and **15+ dependency upgrades**
