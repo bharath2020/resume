@@ -19,7 +19,7 @@
 ## 💼 Professional Experience
 
 ### Senior Software Engineer - Confluence | Atlassian
-**Jan 2020 - Present**
+**June 2016 - Present**
 
 ### 🌟 Key Highlights
 - Created intuitive developer tools that make it easy to build, track, and access Confluence behavioral and observability metrics, empowering teams to move faster with confidence.
