@@ -1,5 +1,5 @@
 # BHARATH BOOSHAN LAKSHMI NARAYANAN
-Santa Clara, CA | +1 408 334 6543 | bharath2020@gmail.com | https://www.linkedin.com/in/bharathbooshan/ | https://github.com/bharath2020/resume/blob/main/index.md
+Santa Clara, CA | +1 408 334 6543 | bharath2020@gmail.com | https://www.linkedin.com/in/bharathbooshan/ | https://bharath2020.github.io/resume/
 
 ## SUMMARY
 Senior iOS engineer with 19 years of experience building consumer and enterprise mobile products, developer platforms, and reusable SDKs. Deep expertise in Swift, UIKit, SwiftUI, performance optimization, analytics, experimentation, and mobile architecture. Track record of shipping features used by millions, improving engineering velocity, and leading cross-functional work across product, design, backend, and platform teams.
